@@ -1,14 +1,23 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Envio por post
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+   Ejemplo de enviar por post hacia un url externo
+   <p>Datos a enviar</p>
+   <ion-list>
+     <ion-input type="text" placeholder="nombre"></ion-input>
+   </ion-list>
+   <ion-list>
+    <ion-input type="text" placeholder="total"></ion-input>
+  </ion-list>
+  <ion-list>
+    <button   placeholder="nombre" (click)="Enviar()">Enviar  post</button >
+  </ion-list>
   </div>
 </ion-content>

@@ -1,5 +1,7 @@
 {
   "name": "enviopost",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
